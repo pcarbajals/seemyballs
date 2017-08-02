@@ -3902,7 +3902,7 @@
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size2.svg");
+                background-image: url("images/home.jpg");
 			}
 
 		}
@@ -3911,7 +3911,7 @@
 
 			#header {
 				height: auto;
-				min-height: 0;
+				min-height: 50em;
 			}
 
 				#header .content {
@@ -3946,7 +3946,7 @@
 		@media screen and (max-width: 736px) {
 
 			#header {
-				background-image: url("images/overlay.png"), url("images/pattern-size3.svg");
+                background-image: url("images/home.jpg");
 			}
 
 				#header h1 {
@@ -4020,7 +4020,7 @@
 	}
 
 		body.is-mobile #header {
-			background-attachment: scroll, scroll;
+			background-attachment: fixed;
 		}
 
 		body.is-loading #header .content {
